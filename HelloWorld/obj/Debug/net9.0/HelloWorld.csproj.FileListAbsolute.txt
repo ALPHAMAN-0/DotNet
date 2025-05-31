@@ -45,14 +45,9 @@
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets.build.json
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets.development.json
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets.build.endpoints.json
-/Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets/msbuild.HelloWorld.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets/msbuild.HelloWorld.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-/Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets/msbuild.build.HelloWorld.props
-/Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.HelloWorld.props
-/Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.HelloWorld.props
-/Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets.pack.json
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/HelloWorld.dll
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/refint/HelloWorld.dll
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/HelloWorld.pdb
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/HelloWorld.genruntimeconfig.cache
 /Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/ref/HelloWorld.dll
+/Users/siam/Desktop/ASP.NET/DotNet/HelloWorld/obj/Debug/net9.0/staticwebassets.build.json.cache
