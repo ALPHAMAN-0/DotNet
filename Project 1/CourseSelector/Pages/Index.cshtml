@@ -1,0 +1,163 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Course Selector";
+}
+
+<div class="container content-container">    <h1 class="display-4 text-center mb-4 text-white">Course Selection Helper</h1>
+    <p class="lead text-center mb-5 text-white">Select the courses you've already completed, and we'll show you which courses you can take next semester.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Select Completed Courses</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="accordion" id="coursesAccordion">
+                            @{
+                                var categories = Model.AllCourses.Select(c => c.Category).Distinct().ToList();
+                                int categoryIndex = 0;
+                            }
+                            
+                            @foreach (var category in categories)
+                            {
+                                categoryIndex++;
+                                string categoryId = $"category{categoryIndex}";
+                                string headingId = $"heading{categoryIndex}";
+                                string collapseId = $"collapse{categoryIndex}";
+                                
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="@headingId">
+                                        <button class="accordion-button @(category == "Main Course" ? "" : "collapsed")" 
+                                                type="button" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#@collapseId" 
+                                                aria-expanded="@(category == "Main Course" ? "true" : "false")" 
+                                                aria-controls="@collapseId">
+                                            @category
+                                        </button>
+                                    </h2>
+                                    <div id="@collapseId" 
+                                         class="accordion-collapse collapse @(category == "Main Course" ? "show" : "")" 
+                                         aria-labelledby="@headingId" 
+                                         data-bs-parent="#coursesAccordion">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                @foreach (var course in Model.AllCourses.Where(c => c.Category == category))
+                                                {
+                                                    <div class="col-md-6 mb-2">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="@course.CourseCode" 
+                                                                id="@course.CourseCode" name="SelectedCourses" 
+                                                                @(Model.SelectedCourses != null && Model.SelectedCourses.Contains(course.CourseCode) ? "checked" : "")>
+                                                            <label class="form-check-label" for="@course.CourseCode">
+                                                                @course.CourseCode - @course.CourseName
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Show Available Courses</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Available Courses for Next Semester</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.AvailableCourses.Any())
+                    {
+                        var availableByCategory = Model.AvailableCourses
+                            .GroupBy(c => c.Category)
+                            .OrderBy(g => g.Key == "Main Course" ? 0 : 1)
+                            .ThenBy(g => g.Key);
+                            
+                        <div class="accordion" id="availableCoursesAccordion">
+                            @{
+                                int availableCatIndex = 0;
+                            }
+                            @foreach (var categoryGroup in availableByCategory)
+                            {
+                                availableCatIndex++;
+                                string availCatId = $"availcat{availableCatIndex}";
+                                string availHeadId = $"availhead{availableCatIndex}";
+                                string availCollapseId = $"availcollapse{availableCatIndex}";
+                                
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="@availHeadId">
+                                        <button class="accordion-button @(categoryGroup.Key == "Main Course" ? "" : "collapsed")" 
+                                                type="button" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#@availCollapseId" 
+                                                aria-expanded="@(categoryGroup.Key == "Main Course" ? "true" : "false")" 
+                                                aria-controls="@availCollapseId">
+                                            @categoryGroup.Key (@categoryGroup.Count() courses)
+                                        </button>
+                                    </h2>
+                                    <div id="@availCollapseId" 
+                                         class="accordion-collapse collapse @(categoryGroup.Key == "Main Course" ? "show" : "")" 
+                                         aria-labelledby="@availHeadId" 
+                                         data-bs-parent="#availableCoursesAccordion">
+                                        <div class="accordion-body">
+                                            <div class="list-group">
+                                                @foreach (var course in categoryGroup)
+                                                {
+                                                    <div class="list-group-item">
+                                                        <div class="d-flex w-100 justify-content-between">
+                                                            <h6 class="mb-1">@course.CourseCode - @course.CourseName</h6>
+                                                        </div>
+                                                        @if (course.Prerequisites.Any())
+                                                        {
+                                                            <small class="text-muted">
+                                                                Prerequisites: @string.Join(", ", course.Prerequisites)
+                                                            </small>
+                                                        }
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        @if (Model.SelectedCourses != null && Model.SelectedCourses.Any())
+                        {
+                            <div class="alert alert-info">
+                                No additional courses are available based on your completed courses.
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-secondary">
+                                Select your completed courses from the left panel to see what's available next.
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Add some interactivity if needed
+        $(document).ready(function() {
+            // You can add JavaScript here if needed
+        });
+    </script>
+}

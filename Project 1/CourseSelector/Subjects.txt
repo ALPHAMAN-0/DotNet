@@ -1,0 +1,115 @@
+
+	Main Course
+    
+    1.	MAT1102 – Differential Calculus & Co-Ordinate Geometry
+	2.	PHY1101 – Physics 1
+	3.	PHY1102 – Physics 1 Lab
+	4.	ENG1101 – English Reading Skills & Public Speaking
+	5.	CSC1101 – Introduction to Computer Studies
+	6.	CSC1102 – Introduction to Programming
+	7.	CSC1103 – Introduction to Programming Lab
+	8.	CSC1204 – Discrete Mathematics
+	9.	MAT1205 – Integral Calculus & Ordinary Differential Equations
+	10.	CSC1205 – Object Oriented Programming 1
+	11.	PHY1203 – Physics 2
+	12.	PHY1204 – Physics 2 Lab
+	13.	ENG1202 – English Writing Skills & Communications
+	14.	COE2101 – Introduction to Electrical Circuits
+	15.	COE2102 – Introduction to Electrical Circuits Lab
+    16.	CHEM1101 – Chemistry
+	17.	MAT2101 – Complex Variable, Laplace & Z-Transformation
+	18.	CSC2106 – Data Structure
+	19.	CSC2107 – Data Structure Lab
+	20.	CSC2108 – Introduction to Database
+	21.	BBA1102 – Principles of Accounting
+	22.	EEE2103 – Electronic Devices
+	23.	EEE2104 – Electronic Devices Lab
+	24.	BAE2101 – Computer Aided Design & Drafting
+    25.	CSC2211 – Algorithms
+	26.	MAT2202 – Matrices, Vectors, Fourier Analysis
+	27.	CSC2210 – Object Oriented Programming 2
+	28.	CSC2209 – Object Oriented Analysis and Design
+	29.	BAS2101 – Bangladesh Studies
+	30.	EEE3101 – Digital Logic and Circuits
+	31.	EEE3102 – Digital Logic and Circuits Lab
+	32.	MAT3103 – Computational Statistics and Probability
+	33.	CSC3113 – Theory of Computation
+	34.	ECO3150 – Principles of Economics
+	35.	ENG2103 – Business Communication
+	36.	MAT3101 – Numerical Methods for Science and Engineering
+	37.	COE3103 – Data Communication
+	38.	COE3104 – Microprocessor and Embedded Systems
+	39.	CSC3112 – Software Engineering
+	40.	CSC3217 – Artificial Intelligence and Expert System
+	41.	COE3206 – Computer Networks
+	42.	COE3205 – Computer Organization and Architecture
+	43.	CSC3214 – Operating System
+	44.	CSC3215 – Web Technologies
+	45.	EEE2216 – Engineering Ethics
+	46.	CSC3216 – Compiler Design
+	47.	CSC4118 – Computer Graphics
+	48.	COS Elective 1
+	49.	MGT3202 – Engineering Management
+	50.	CSC4197 – Research Methodology
+	51.	CSE Major 1
+	52.	CSE Major 2
+	53.	CSE Major 3
+	54.	CSC4299 – Thesis
+	55.	COS Elective 2
+	56.	CSC4296 – Internshi
+
+ Major in Information Systems
+	57.	CSC4181 – Advanced Database Management System
+	58.	MIS3101 – Management Information System
+	59.	MIS4011 – Enterprise Resource Planning
+	60.	CSC4285 – Data Warehouse and Data Mining
+	61.	CSC4182 – Human Computer Interaction
+	62.	MIS4014 – Business Intelligence and Decision Support Systems
+	63.	CSC4180 – Introduction to Data Science
+	64.	CSC4183 – Cyber Laws & Information Security
+	65.	MIS4007 – Digital Marketing
+	66.	MIS4012 – E-Commerce, E-Governance & E-Series
+
+
+
+ Major in Software Engineering
+	67.	CSC4270 – Software Development Project Management
+	68.	CSC4160 – Software Requirement Engineering
+	69.	CSC4271 – Software Quality and Testing
+	70.	CSC4162 – Programming in Python
+	71.	CSC4274 – Virtual Reality Systems Design
+	72.	CSC4163 – Advanced Programming with Java
+	73.	CSC4164 – Advanced Programming with .NET
+	74.	CSC4161 – Advanced Programming in Web Technology
+	75.	CSC4272 – Mobile Application Development
+	76.	CSC4273 – Software Architecture and Design Patterns
+
+
+
+ Major in Computational Theory
+	77.	CSC4125 – Computer Science Mathematics
+	78.	CSC4126 – Basic Graph Theory
+	79.	CSC4127 – Advanced Algorithm Techniques
+	80.	CSC4233 – Natural Language Processing
+	81.	CSC4128 – Linear Programming
+	82.	CSC4231 – Parallel Computing
+	83.	CSC4232 – Machine Learning
+
+ Major in Computer Engineering
+	84.	BAE1201 – Basic Mechanical Engineering
+	85.	EEE3103 – Digital Signal Processing
+	86.	EEE4217 – VLSI Circuit Design
+	87.	EEE2213 – Signals & Linear System
+	88.	COE4128 – Digital System Design
+	89.	COE4231 – Image Processing
+	90.	COE4129 – Multimedia Systems
+	91.	COE4230 – Simulation & Modeling
+	92.	COE4126 – Advanced Computer Networks
+	93.	COE4232 – Network Security
+	94.	COE4125 – Advanced Operating System
+	95.	EEE4233 – Digital Design with System [Verilog, VHDL & FPGAs]
+	96.	COE4235 – Robotics Engineering
+	97.	EEE4209 – Telecommunications Engineering
+	98.	COE4127 – Network Resource Management & Organization
+	99.	COE4233 – Wireless Sensor Networks
+	100.	EEE4241 – Industrial Electronics, Drives & Instrumentation
