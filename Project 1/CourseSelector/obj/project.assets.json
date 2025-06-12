@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/siam/Desktop/C++/CourseSelector/CourseSelector.csproj",
+      "projectUniqueName": "/Users/siam/Desktop/ GitHub (RedApple)/DotNet/Project 1/CourseSelector/CourseSelector.csproj",
       "projectName": "CourseSelector",
-      "projectPath": "/Users/siam/Desktop/C++/CourseSelector/CourseSelector.csproj",
+      "projectPath": "/Users/siam/Desktop/ GitHub (RedApple)/DotNet/Project 1/CourseSelector/CourseSelector.csproj",
       "packagesPath": "/Users/siam/.nuget/packages/",
-      "outputPath": "/Users/siam/Desktop/C++/CourseSelector/obj/",
+      "outputPath": "/Users/siam/Desktop/ GitHub (RedApple)/DotNet/Project 1/CourseSelector/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/siam/.nuget/NuGet/NuGet.Config"

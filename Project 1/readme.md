@@ -51,5 +51,9 @@ CourseSelector solves these problems by:
 ## About the Developer
 This project was developed by Siam as part of the .NET programming coursework at AIUB. It aims to solve real-world problems faced by university students when planning their academic journey.
 
+## Website
+Visit our website to learn more about CourseSelector:
+https://ALPHAMAN-0.github.io/CourseSelector
+
 ## Feedback & Contributions
 I welcome feedback and contributions to improve CourseSelector. Please feel free to submit issues, suggestions, or pull requests.
