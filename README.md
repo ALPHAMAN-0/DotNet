@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DotNet
 # .NET Framework
 
