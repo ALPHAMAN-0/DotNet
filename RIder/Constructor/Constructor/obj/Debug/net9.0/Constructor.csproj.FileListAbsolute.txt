@@ -1,0 +1,15 @@
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/bin/Debug/net9.0/Constructor
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/bin/Debug/net9.0/Constructor.deps.json
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/bin/Debug/net9.0/Constructor.runtimeconfig.json
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/bin/Debug/net9.0/Constructor.dll
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/bin/Debug/net9.0/Constructor.pdb
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.AssemblyInfoInputs.cache
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.AssemblyInfo.cs
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.csproj.CoreCompileInputs.cache
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.sourcelink.json
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.dll
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/refint/Constructor.dll
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.pdb
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/Constructor.genruntimeconfig.cache
+/Users/siam/Desktop/ GitHub (RedApple)/DotNet/RIder/Constructor/Constructor/obj/Debug/net9.0/ref/Constructor.dll
