@@ -29,11 +29,36 @@
             value = val;
         }
     }
-   
-    
-    public class Program
+    //generic Interface
+    public interface IStorage<T>
+    {
+        void Add(T item);
+        T Get(int index);
+    }
+    public class StringStorage : IStorage<string>
+    {
+        private List<string> items = new List<string>();
+        public void Add(string item)
         {
+            items.Add(item);
+        }
+        public string Get(int index)
+        {
+            return items[index];
+        }
+    }
+    public delegate T GenericDelegate<T>(T a,T b);
+    public class Program
+    {
         //generic method
+        static int add(int a, int b)
+        {
+            return a + b;
+        }
+        static string concatenate(string a, string b)
+        {
+            return a + b;
+        }
         public static void genericMethod<T>(T value)
         {
             System.Console.WriteLine(value);
@@ -65,7 +90,25 @@
             genericMethod<int>(10);
             genericMethod<string>("Generic Method Call");
             genericMethod<double>(3.14);
+
+            //generic delegate
+            GenericDelegate<int> intDelegate = new GenericDelegate<int>(add);
+            int result = intDelegate(5, 10);
+            Console.WriteLine($"Integer Delegate Result: {result}");
+
+            GenericDelegate<string> stringDelegate = new GenericDelegate<string>(concatenate);
+            string strResult = stringDelegate("Hello, ", "World!");
+            Console.WriteLine($"String Delegate Result: {strResult}");
+
+            //list type
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+            numbers.Add(6);
+            Console.WriteLine("Numbers in the list:");
+            foreach (var num in numbers)
+            {
+                Console.WriteLine(num);
+            }
         }
-        }
+    }
 }
           
