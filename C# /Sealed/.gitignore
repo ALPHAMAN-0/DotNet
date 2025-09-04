@@ -1,0 +1,57 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Visual Studio Code files
+.vscode/
+
+# Other files
+*.DS_Store
+*.db
+*.sqlite
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Test results
+TestResults/
+*.trx
+
+# Publish files
+publish/
+*.Publish.xml
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Entity Framework files
+Migrations/
+
+# Rider files
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Auto-generated files
+Generated_Code/
