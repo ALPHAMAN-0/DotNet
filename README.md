@@ -2,6 +2,18 @@
 
 A comprehensive .NET learning repository covering the .NET Framework, ASP.NET Core, C#, MVC architecture, Web APIs, MongoDB integration, and Windows Forms.
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[Dotnet]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 ## Contents
 
 | Folder | Description | Key Concepts |
