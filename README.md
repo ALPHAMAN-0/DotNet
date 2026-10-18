@@ -5,12 +5,16 @@ A comprehensive .NET learning repository covering the .NET Framework, ASP.NET Co
 ## Architecture / How it Works
 
 ```mermaid
-flowchart LR
-    A[User] --> B[Dotnet]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+flowchart TD
+    A["C#"]
+    B[HelloWorldNew]
+    C[MVC]
+    D["MVC 01"]
+    E["MongoDB API"]
+    F["Project 1"]
+    G[RIder]
+    H["Web API"]
+    I["Windows Froms(AIUB)"]
 ```
 
 
